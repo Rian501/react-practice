@@ -14,8 +14,8 @@ export default class Kennel extends Component {
       { name: "Blaise Roberts" }
     ],
     locations: [
-      { name: "Nashville North" },
-      { name: "Nashville South" }
+      { name: "Nashville North", address: "500 Puppy Way" },
+      { name: "Nashville South", address: "500 Old Doggo Way"  }
     ]
   }
 
