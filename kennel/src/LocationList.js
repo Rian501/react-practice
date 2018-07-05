@@ -8,7 +8,7 @@ export default class LocationList extends Component {
       <React.Fragment>
         {
           this.props.locations.map(loc =>
-            <div>
+            <div key={loc.id}>
               <h3>{loc.name}</h3>
               <h4>{loc.address}</h4>
             </div>

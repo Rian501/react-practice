@@ -6,7 +6,7 @@ export default class EmployeeList extends Component {
       <React.Fragment>
         {
           this.props.employees.map(employee =>
-            <div>
+            <div key={employee.id}>
               {employee.name}
             </div>
           )
