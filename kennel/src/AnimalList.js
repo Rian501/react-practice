@@ -9,14 +9,16 @@ import React, { Component } from 'react'
 export default class AnimalList extends Component {
   
   findOwner(animalId) {
+    let ownersName = ''; // a forEach does not return anything, so that won't work unless you set a var and reset it
     this.props.owners.forEach((owner) => {
          this.props.joins.forEach((relationship) => {
           if (relationship.petId === animalId && relationship.ownerId === owner.id) {
             console.log(relationship,owner.name)
-            return owner.name
+            ownersName = owner.name;
           }
         })
       })
+    return ownersName;
   }
 
   render() {
