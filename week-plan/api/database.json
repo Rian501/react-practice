@@ -1,0 +1,52 @@
+  {
+    "plans": [
+      {
+        "id": 1,
+        "day": "Monday",
+        "place": "Mas Tacos",
+        "thing": "drink margs"
+      },
+      {
+        "id": 2,
+        "day": "Tuesday",
+        "place": "house",
+        "thing": "chase kikitties"
+      },
+      {
+        "id": 3,
+        "day": "Wednesday",
+        "place": "da streets",
+        "thing": "car racing"
+      },
+      {
+        "id": 4,
+        "day": "Thursday",
+        "place": "Beer place",
+        "thing": "beers"
+      },
+      {
+        "id": 5,
+        "day": "Monday",
+        "place": "your moms house",
+        "thing": "drink wine"
+      },
+      {
+        "id": 6,
+        "day": "Tuesday",
+        "place": "the park",
+        "thing": "chase doggies"
+      },
+      {
+        "id": 7,
+        "day": "Wednesday",
+        "place": "da streets",
+        "thing": "walktales"
+      },
+      {
+        "id": 8,
+        "day": "Thursday",
+        "place": "buger place",
+        "thing": "burgers"
+      }
+    ]
+  }
